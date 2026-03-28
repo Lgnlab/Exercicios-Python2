@@ -1,3 +1,6 @@
+#Exercício 06
+#Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
+
 data = str(input('Data De Nascimento (dd/mm/aaaa): ')).strip()
 
 if data[3:5] == '01':
