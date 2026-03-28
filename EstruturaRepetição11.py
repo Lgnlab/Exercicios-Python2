@@ -1,3 +1,6 @@
+#Exercício 11
+#Altere o programa anterior para mostrar no final a soma dos números.
+
 inicio = int(input('Início: '))
 fim = int(input('Fim: '))
 soma = 0
