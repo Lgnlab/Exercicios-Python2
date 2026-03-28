@@ -1,3 +1,11 @@
+#Exercício 10
+#Faça um programa que pergunte em que turno você estuda. Peça para digitar:
+
+#M - Matutino
+#V - Vespertino
+#N - Noturno.
+#Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+
 turno = str(input('Informe o turno que você estuda (Matutino/Vespertino/Noturno): ')).strip().upper()[0]
 if turno == 'M':
     print('Bom dia!')
