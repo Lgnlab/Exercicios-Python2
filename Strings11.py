@@ -1,3 +1,7 @@
+#Exercício 12
+#Valida e corrige número de telefone. Faça um programa que leia um número de telefone, e corrija o número no caso deste conter somente 7 dígitos, acrescentando o '3' na frente.
+#O usuário pode informar o número com ou sem o traço separador.
+
 telefone = str(input('Digite o número de telefone: ')).strip()
 telefone_limpo = telefone.replace('-', '')   #REMOVE O HIFEN E DEIXA SÓ OS NÚMEROS
 print(f'Telefone Informado: {telefone}')
