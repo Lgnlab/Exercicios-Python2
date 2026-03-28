@@ -1,3 +1,6 @@
+#Exercício 08
+#Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato:
+
 prod1 = float(input('Produto 1:R$'))
 prod2 = float(input('Produto 2:R$'))
 prod3 = float(input('Produto 3:R$'))
