@@ -1,3 +1,11 @@
+#Exercício 24
+#Faça um programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar.
+#O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+
+#par ou ímpar;
+#positivo ou negativo;
+#inteiro ou decimal.
+
 numero1 = float(input('Primeiro Número: '))
 numero2 = float(input('Segundo Número: '))
 operando = str(input('Operador (+, -, *, /): ')).strip()[0]
