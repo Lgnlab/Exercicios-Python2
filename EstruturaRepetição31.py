@@ -5,6 +5,7 @@
 #Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra.
 
 print(f'{"LOJAS TABAJARA":=^30}')
+print()
 cont = 1
 total = 0
 while True:
