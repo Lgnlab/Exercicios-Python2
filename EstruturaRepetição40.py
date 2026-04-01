@@ -6,8 +6,6 @@
 #Qual o maior e menor índice de acidentes de trânsito e a que cidade pertence;
 #Qual a média de veículos nas cinco cidades juntas;
 
-
-
 maior_acidentes = menor_acidentes = 0
 cod_maior = cod_menor = int
 soma_veiculos = 0
