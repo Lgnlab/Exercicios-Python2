@@ -5,7 +5,7 @@
 #Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
 #Qual o maior e menor índice de acidentes de trânsito e a que cidade pertence;
 #Qual a média de veículos nas cinco cidades juntas;
-#Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+
 
 
 maior_acidentes = menor_acidentes = 0
