@@ -3,16 +3,19 @@
 
 lista1 = []
 lista2 = []
-lista3 = []
+intercalado = []
+
 print('Primeira Lista:')
-for l1 in range(1, 11):
+for l1 in range(1, 5 + 1):
     num = int(input(f'{l1}ª número: '))
     lista1.append(num)
 print('Segunda lista:')
-for l2 in range(1, 11):
+for l2 in range(1, 5 + 1):
     num = int(input(f'{l2}ª número: '))
     lista2.append(num)
+for i in range(5):
+    intercalado.append(lista1[i])
+    intercalado.append(lista2[i])
 
-lista3.append(lista1)
-lista3.append(lista2)
-print(lista3)
+print('Vetor Intercalado:')
+print(intercalado)
