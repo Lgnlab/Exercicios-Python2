@@ -1,3 +1,15 @@
+#O programa deverá permitir a digitação do salário de um número indefinido (desconhecido) de salários. Um valor de salário igual a 0 (zero) encerra a digitação.
+#Após a entrada de todos os dados o programa deverá calcular o valor do abono concedido a cada colaborador, de acordo com a regra definida acima.
+
+#Ao final, o programa deverá apresentar:
+#O salário de cada funcionário, com o valor do abono;
+#O número total de funcionário processados;
+#O valor total a ser gasto com o pagamento do abono;
+#O número de funcionário que receberá o valor mínimo de 100 reais;
+#O maior valor pago como abono;
+#Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro;
+#O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo;
+
 lista_salarios = []
 lista_abono = []
 colaboradores = valor_minimo = total_abono = maior_abono = 0
